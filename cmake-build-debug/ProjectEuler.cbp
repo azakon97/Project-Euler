@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProjectEuler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjectEuler">
+				<Option output="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/ProjectEuler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 ProjectEuler"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProjectEuler/fast">
+				<Option output="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/ProjectEuler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 ProjectEuler/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem1/src/Problem1.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem2/src/Problem2.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem2/src/Problem2.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem3/src/Problem3.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem3/src/Problem3.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem4/src/Problem4.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem4/src/Problem4.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem5/src/Problem5.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem5/src/Problem5.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Util/src/Util.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Util/src/Util.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/main.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
