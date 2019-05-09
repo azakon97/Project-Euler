@@ -3,12 +3,15 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
-      <file path="$PROJECT_DIR$/Problem1/src" />
-      <file path="$PROJECT_DIR$/Problem2/src" />
-      <file path="$PROJECT_DIR$/Problem3/src" />
-      <file path="$PROJECT_DIR$/Problem4/src" />
-      <file path="$PROJECT_DIR$/Problem5/src" />
-      <file path="$PROJECT_DIR$/Util/src" />
+      <file path="$PROJECT_DIR$/Problem7/src" />
+      <file path="$PROJECT_DIR$/src" />
+      <file path="$PROJECT_DIR$/src/Problem1/src" />
+      <file path="$PROJECT_DIR$/src/Problem2/src" />
+      <file path="$PROJECT_DIR$/src/Problem3/src" />
+      <file path="$PROJECT_DIR$/src/Problem4/src" />
+      <file path="$PROJECT_DIR$/src/Problem5/src" />
+      <file path="$PROJECT_DIR$/src/Problem6/src" />
+      <file path="$PROJECT_DIR$/src/Util/src" />
     </sourceRoots>
   </component>
   <component name="JavaScriptSettings">

@@ -82,40 +82,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem1/src/Problem1.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem1/Problem1.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem2/src/Problem2.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem1/Problem1.h">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem2/src/Problem2.h">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem2/Problem2.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem3/src/Problem3.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem2/Problem2.h">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem3/src/Problem3.h">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem3/Problem3.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem4/src/Problem4.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem3/Problem3.h">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem4/src/Problem4.h">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem4/Problem4.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem5/src/Problem5.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem4/Problem4.h">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Problem5/src/Problem5.h">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem5/Problem5.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Util/src/Util.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem5/Problem5.h">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/Util/src/Util.h">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem6/Problem6.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
-		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/main.cpp">
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem6/Problem6.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem7/Problem7.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem7/Problem7.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/main.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
 		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/CMakeLists.txt">

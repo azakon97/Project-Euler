@@ -3,4 +3,4 @@ project(ProjectEuler)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProjectEuler Problem1/src/Problem1.cpp Problem2/src/Problem2.cpp main.cpp Util/src/Util.cpp Problem3/src/Problem3.cpp Problem3/src/Problem3.h Util/src/Util.h Problem2/src/Problem2.h Problem4/src/Problem4.cpp Problem4/src/Problem4.h Problem5/src/Problem5.cpp Problem5/src/Problem5.h)
+add_executable(ProjectEuler src/Problem1/Problem1.cpp src/Problem2/Problem2.cpp src/main.cpp src/Util/Util.cpp src/Problem3/Problem3.cpp src/Problem3/Problem3.h src/Util/Util.h src/Problem2/Problem2.h src/Problem4/Problem4.cpp src/Problem4/Problem4.h src/Problem5/Problem5.cpp src/Problem5/Problem5.h src/Problem6/Problem6.cpp src/Problem6/Problem6.h src/Problem7/Problem7.cpp src/Problem7/Problem7.h src/Problem1/Problem1.h)
