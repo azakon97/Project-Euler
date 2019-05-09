@@ -43,6 +43,28 @@ std::vector<unsigned long long> generatePrimes(unsigned long long n) {
 }
 
 /**
+ *
+ * @param n
+ * @return nth prime number
+ */
+unsigned long long generatePrime(unsigned long long n) {
+    if (n == 1)
+        return 2;
+    unsigned long long counter;
+    counter = 1;
+    unsigned long long primeCandidate;
+    primeCandidate = 1;
+    while (counter < n) {
+        // increase by 2 because there are no even primes other than 2
+        primeCandidate += 2;
+
+        if (isPrime(primeCandidate))
+            counter++;
+    }
+    return primeCandidate;
+}
+
+/**
  * Function that recursively checks if a number is a palindrome
  * @param n - number that we perform the check on
  * @param copy - shared copy of n among all recursive calls

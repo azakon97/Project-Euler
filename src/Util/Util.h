@@ -8,6 +8,8 @@ bool isPrime(unsigned long long n);
 
 std::vector<unsigned long long> generatePrimes(unsigned long long n);
 
+unsigned long long generatePrime(unsigned long long n);
+
 bool isPalindrome(int n, int *copy);
 
 unsigned long long gcd(unsigned long long a, unsigned long long b);

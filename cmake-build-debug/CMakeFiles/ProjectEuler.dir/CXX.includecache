@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem3/Problem3.cpp
-iostream
--
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.cpp
 vector
 -
-../Util/Util.h
+Util.h
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.h
-Problem3.h
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem3/Problem3.h
-
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem3/Problem3.h
+iostream
+-
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.h
 vector
