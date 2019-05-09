@@ -26,6 +26,9 @@ CMakeFiles\ProjectEuler.dir\src\Problem7\Problem7.cpp.obj: ..\src\Problem7\Probl
 CMakeFiles\ProjectEuler.dir\src\Problem7\Problem7.cpp.obj: ..\src\Problem7\Problem7.h
 CMakeFiles\ProjectEuler.dir\src\Problem7\Problem7.cpp.obj: ..\src\Util\Util.h
 
+CMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.obj: ..\src\Problem8\Problem8.cpp
+CMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.obj: ..\src\Problem8\Problem8.h
+
 CMakeFiles\ProjectEuler.dir\src\Util\Util.cpp.obj: ..\src\Util\Util.cpp
 CMakeFiles\ProjectEuler.dir\src\Util\Util.cpp.obj: ..\src\Util\Util.h
 
@@ -36,5 +39,6 @@ CMakeFiles\ProjectEuler.dir\src\main.cpp.obj: ..\src\Problem4\Problem4.h
 CMakeFiles\ProjectEuler.dir\src\main.cpp.obj: ..\src\Problem5\Problem5.h
 CMakeFiles\ProjectEuler.dir\src\main.cpp.obj: ..\src\Problem6\Problem6.h
 CMakeFiles\ProjectEuler.dir\src\main.cpp.obj: ..\src\Problem7\Problem7.h
+CMakeFiles\ProjectEuler.dir\src\main.cpp.obj: ..\src\Problem8\Problem8.h
 CMakeFiles\ProjectEuler.dir\src\main.cpp.obj: ..\src\main.cpp
 
