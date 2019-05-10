@@ -19,7 +19,6 @@ void readNumFromFile(int* number) {
 
     int index = 0;
 
-
     while (!in.eof()) {
         in.get(current_char);
         if (current_char != '\n') {
@@ -31,26 +30,33 @@ void readNumFromFile(int* number) {
     in.close();
 }
 
-unsigned long long greatestAdjacentProduct(const int* number) {
+/**
+ *
+ * @param number - an array of digits representing a large number (1000 digits)
+ * @param num_multipliers  - number of adjacent digits used for calculating the product
+ * @return the greatest product of 'num_multipliers' adjacent digits in 'number'
+ */
+unsigned long long greatestAdjacentProduct(const int* number, int num_multipliers) {
     int start, end;
     start = 0;
     end = 0;
     unsigned long long product, largest_product;
     product = 1;
-    largest_product = 1;
+    largest_product = 0;
 
-    while (start < 988) {
+    while (end < 1000) {
         if (number[end] == 0) {
             end++;
             start = end;
             product = 1;
-        } else if (end - start == 3) {
+        } else if (end - start == num_multipliers-1) {
+            product *= number[end];
+            end++;
             if (product > largest_product)
                 largest_product = product;
             product /= number[start];
             start++;
-            end++;
-            product *= number[end];
+
         } else {
             product *= number[end];
             end++;
@@ -63,18 +69,6 @@ unsigned long long greatestAdjacentProduct(const int* number) {
 
 void problem8() {
     int number[1001];
-
     readNumFromFile(number);
-
-    for (int i = 0; i < 1000; i++) {
-        if (i % 50 == 0)
-            std::cout << std::endl;
-        std::cout << number[i];
-    }
-    std::cout << std::endl;
-
-    std::cout << greatestAdjacentProduct(number) << std::endl;
-
-
-
+    std::cout << greatestAdjacentProduct(number, 13) << std::endl;
 }
