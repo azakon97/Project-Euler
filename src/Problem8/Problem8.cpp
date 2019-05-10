@@ -7,7 +7,7 @@
  * Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
  */
 
-void readNumFromFile(int* number) {
+void readNumFromFile(int *number) {
     char current_char;
     std::ifstream in;
     in.open(R"(C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem8\number.txt)", std::ios::in);
@@ -36,7 +36,7 @@ void readNumFromFile(int* number) {
  * @param num_multipliers  - number of adjacent digits used for calculating the product
  * @return the greatest product of 'num_multipliers' adjacent digits in 'number'
  */
-unsigned long long greatestAdjacentProduct(const int* number, int num_multipliers) {
+unsigned long long greatestAdjacentProduct(const int *number, int num_multipliers) {
     int start, end;
     start = 0;
     end = 0;

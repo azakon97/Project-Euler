@@ -8,6 +8,7 @@
 #include "Problem8/Problem8.h"
 #include "Problem9/Problem9.h"
 #include "Problem10/Problem10.h"
+#include "Problem11/Problem11.h"
 #include <iostream>
 
 
@@ -17,15 +18,7 @@
 using namespace std;
 
 int main() {
-//    problem1();
-//    problem2();
-//    problem3();
-//    problem4();
-//    problem5();
-//    problem6();
-//    problem7();
-//    problem8();
-//    problem9();
-    problem10();
+
+    problem11();
     return 0;
 }
