@@ -248,6 +248,44 @@ CMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.s /c C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem8\Problem8.cpp
 <<
 
+CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.obj: CMakeFiles\ProjectEuler.dir\flags.make
+CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.obj: ..\src\Problem9\Problem9.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProjectEuler.dir/src/Problem9/Problem9.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.obj /FdCMakeFiles\ProjectEuler.dir\ /FS -c C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem9\Problem9.cpp
+<<
+
+CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectEuler.dir/src/Problem9/Problem9.cpp.i"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem9\Problem9.cpp
+<<
+
+CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectEuler.dir/src/Problem9/Problem9.cpp.s"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.s /c C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem9\Problem9.cpp
+<<
+
+CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.obj: CMakeFiles\ProjectEuler.dir\flags.make
+CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.obj: ..\src\Problem10\Problem10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ProjectEuler.dir/src/Problem10/Problem10.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.obj /FdCMakeFiles\ProjectEuler.dir\ /FS -c C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem10\Problem10.cpp
+<<
+
+CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectEuler.dir/src/Problem10/Problem10.cpp.i"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem10\Problem10.cpp
+<<
+
+CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectEuler.dir/src/Problem10/Problem10.cpp.s"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.s /c C:\Users\Sergey\Desktop\Sasha\Project-Euler\src\Problem10\Problem10.cpp
+<<
+
 # Object files for target ProjectEuler
 ProjectEuler_OBJECTS = \
 "CMakeFiles\ProjectEuler.dir\src\Problem1\Problem1.cpp.obj" \
@@ -259,7 +297,9 @@ ProjectEuler_OBJECTS = \
 "CMakeFiles\ProjectEuler.dir\src\Problem5\Problem5.cpp.obj" \
 "CMakeFiles\ProjectEuler.dir\src\Problem6\Problem6.cpp.obj" \
 "CMakeFiles\ProjectEuler.dir\src\Problem7\Problem7.cpp.obj" \
-"CMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.obj"
+"CMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.obj" \
+"CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.obj" \
+"CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.obj"
 
 # External object files for target ProjectEuler
 ProjectEuler_EXTERNAL_OBJECTS =
@@ -274,9 +314,11 @@ ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\src\Problem5\Problem5.cpp.obj
 ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\src\Problem6\Problem6.cpp.obj
 ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\src\Problem7\Problem7.cpp.obj
 ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\src\Problem8\Problem8.cpp.obj
+ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\src\Problem9\Problem9.cpp.obj
+ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\src\Problem10\Problem10.cpp.obj
 ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\build.make
 ProjectEuler.exe: CMakeFiles\ProjectEuler.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ProjectEuler.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ProjectEuler.exe"
 	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ProjectEuler.dir --manifests  -- C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ProjectEuler.dir\objects1.rsp @<<
  /out:ProjectEuler.exe /implib:ProjectEuler.lib /pdb:C:\Users\Sergey\Desktop\Sasha\Project-Euler\cmake-build-debug\ProjectEuler.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

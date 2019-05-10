@@ -20,7 +20,7 @@ int modulo(int a, int b) {
 bool isPrime(unsigned long long n) {
     if (n == 0 || n == 1)
         return false;
-    for (int i = 2; i <= n/2; i++) {
+    for (int i = 2; i <= sqrt(n); i++) {
         if (n % i == 0)
             return false;
     }
@@ -34,7 +34,8 @@ bool isPrime(unsigned long long n) {
  */
 std::vector<unsigned long long> generatePrimes(unsigned long long n) {
     std::vector<unsigned long long> primes;
-    for (unsigned long long i = 2; i < n; i++) {
+    primes.push_back(2);
+    for (unsigned long long i = 3; i < n; i+=2) {
         if (isPrime(i)) {
             primes.push_back(i);
         }

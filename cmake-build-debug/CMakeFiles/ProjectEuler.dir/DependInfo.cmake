@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem1/Problem1.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem1/Problem1.cpp.obj"
+  "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem10/Problem10.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem10/Problem10.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem2/Problem2.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem2/Problem2.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem3/Problem3.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem3/Problem3.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem4/Problem4.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem4/Problem4.cpp.obj"
@@ -12,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem6/Problem6.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem6/Problem6.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem7/Problem7.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem7/Problem7.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem8/Problem8.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem8/Problem8.cpp.obj"
+  "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem9/Problem9.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Problem9/Problem9.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/Util/Util.cpp.obj"
   "C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/main.cpp" "C:/Users/Sergey/Desktop/Sasha/Project-Euler/cmake-build-debug/CMakeFiles/ProjectEuler.dir/src/main.cpp.obj"
   )

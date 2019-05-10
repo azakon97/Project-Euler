@@ -6,6 +6,8 @@
 #include "Problem6/Problem6.h"
 #include "Problem7/Problem7.h"
 #include "Problem8/Problem8.h"
+#include "Problem9/Problem9.h"
+#include "Problem10/Problem10.h"
 #include <iostream>
 
 
@@ -22,15 +24,8 @@ int main() {
 //    problem5();
 //    problem6();
 //    problem7();
-    problem8();
-
-//    char a = '1';
-//    char num[1000];
-//    num[0] = a;
-//    a = '3';
-//    num[1] = a;
-//    cout << num[0] << endl;
-//    cout << num[1] << endl;
-
+//    problem8();
+//    problem9();
+    problem10();
     return 0;
 }

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProjectEuler.dir/src/Problem6/Problem6.cpp.obj"
   "CMakeFiles/ProjectEuler.dir/src/Problem7/Problem7.cpp.obj"
   "CMakeFiles/ProjectEuler.dir/src/Problem8/Problem8.cpp.obj"
+  "CMakeFiles/ProjectEuler.dir/src/Problem9/Problem9.cpp.obj"
+  "CMakeFiles/ProjectEuler.dir/src/Problem10/Problem10.cpp.obj"
   "ProjectEuler.pdb"
   "ProjectEuler.exe"
   "ProjectEuler.exe.manifest"

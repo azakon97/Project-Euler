@@ -1,0 +1,5 @@
+#ifndef PROJECTEULER_PROBLEM9_H
+#define PROJECTEULER_PROBLEM9_H
+
+void problem9();
+#endif //PROJECTEULER_PROBLEM9_H
