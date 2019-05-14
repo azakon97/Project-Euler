@@ -1,6 +1,7 @@
 #include <vector>
 #include "Util.h"
 #include <iostream>
+#include <bitset>
 /**
  * Function that calculates a modulo b even if a is negative
  * @param a
@@ -20,7 +21,8 @@ int modulo(int a, int b) {
 bool isPrime(unsigned long long n) {
     if (n == 0 || n == 1)
         return false;
-    for (int i = 2; i <= sqrt(n); i++) {
+    double bound = sqrt(n);
+    for (int i = 2; i <= bound; i++) {
         if (n % i == 0)
             return false;
     }
@@ -28,17 +30,61 @@ bool isPrime(unsigned long long n) {
 }
 
 /**
- *
- * @param n
- * @return vector or all prime numbers smaller than n
+ * Uses Sieve of Eratosthenes method to compute all primes until 20,000,000
+ * @param *nums - the pointer to a bitset
+ * @return vector or all prime numbers smaller than 20,000,000
  */
-std::vector<unsigned long long> generatePrimes(unsigned long long n) {
-    std::vector<unsigned long long> primes;
-    primes.push_back(2);
-    for (unsigned long long i = 3; i < n; i+=2) {
-        if (isPrime(i)) {
-            primes.push_back(i);
+std::vector<unsigned> generatePrimes(std::bitset<20000000> *nums) {
+
+    const unsigned until = nums->size();
+    nums->set();
+    nums->set(0, false);
+    nums->set(1, false);
+
+    double sieveBound = sqrt(until);
+
+
+    for (unsigned i = 2; i < sieveBound; i++) {
+        if ((*nums)[i]) {
+            for (unsigned mult = i * 2; mult < until; mult += i) {
+                nums->set(mult, false);
+            }
         }
+    }
+
+    std::vector<unsigned> primes;
+    for (unsigned int i = 0; i < until; i++) {
+        if ((*nums)[i])
+            primes.push_back(i);
+    }
+    return primes;
+}
+
+/**
+ * Uses Sieve of Eratosthenes method to compute all primes until a specified integer
+ * @param until - limit, all returned primes are smaller than 'until'
+ * @return vector or all prime numbers smaller than 'until'
+ */
+std::vector<unsigned> generatePrimes(unsigned until) {
+
+    std::vector<bool> nums(until, true);
+    nums[0] = false;
+    nums[1] = false;
+
+    double sieveBound = sqrt(until);
+
+    for (unsigned i = 2; i < sieveBound; i++) {
+        if (nums[i]) {
+            for (unsigned mult = i * 2; mult < until; mult += i) {
+                nums[mult] = false;
+            }
+        }
+    }
+
+    std::vector<unsigned> primes;
+    for (unsigned i = 0; i < until; i++) {
+        if (nums[i])
+            primes.push_back(i);
     }
     return primes;
 }
@@ -63,6 +109,39 @@ unsigned long long generatePrime(unsigned long long n) {
             counter++;
     }
     return primeCandidate;
+}
+
+/**
+ * Function that computes the number of divisors by performing prime factorisation
+ * The total number of divisors of N can be expressed as D(N) = (a+1)(b+1)(c+1)...
+ * where a, b, c ... are exponents of the prime factors of N
+ * @param number - the number that we are finding the prime factorisation of
+ * @param primes - vector of prime numbers used to find the factorisation
+ * @return number of divisors of 'number'
+ */
+unsigned primeFactorisationNumDivisors(unsigned number, std::vector<unsigned> primes) {
+    unsigned numDivisors = 1;
+    unsigned exponent;
+    unsigned remainder = number;
+    for (unsigned i = 0; i < primes.size(); i++) {
+        // If there is a remainder > 1 once we reached the square root of the number,
+        // then it is a prime factor, the exponent of that factor is 1, so we multiply by 2
+        if (primes[i] * primes[i] > number)
+            return numDivisors * 2;
+
+        exponent = 0;
+        // For each prime we find the exponent and multiply number of divisors by (1 + exponent)
+        while (remainder % primes[i] == 0) {
+            exponent++;
+            remainder = remainder / primes[i];
+        }
+        numDivisors *= (exponent + 1);
+
+        // If there is no remainder, then we are done
+        if (remainder == 1)
+            return numDivisors;
+    }
+    return numDivisors;
 }
 
 /**
@@ -116,3 +195,10 @@ unsigned long long lcm(unsigned long long a, unsigned long long b) {
     return a * (b / gcd(a, b));
 }
 
+int max2(int a, int b) {
+    return a < b ? b : a;
+}
+
+int max3(int a, int b, int c) {
+    return max2(a, b) < c ? c : max2(a, b);
+}

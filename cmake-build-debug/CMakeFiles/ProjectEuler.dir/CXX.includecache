@@ -8,17 +8,27 @@
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem1/Problem1.h
 
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem10/Problem10.h
-
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem11/Problem11.cpp
-fstream
--
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem10/Problem10.cpp
 iostream
 -
-Problem11.h
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem11/Problem11.h
+Problem10.h
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem10/Problem10.h
+../Util/Util.h
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.h
+
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem10/Problem10.h
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem11/Problem11.h
+
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem12/Problem12.cpp
+iostream
+-
+../Util/Util.h
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.h
+Problem12.h
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem12/Problem12.h
+
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem12/Problem12.h
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem2/Problem2.h
 
@@ -32,17 +42,21 @@ C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem6/Problem6.h
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem7/Problem7.h
 
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem8/Problem8.cpp
-Problem8.h
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem8/Problem8.h
+
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem9/Problem9.cpp
 iostream
 -
-fstream
--
-
-C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem8/Problem8.h
+Problem9.h
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem9/Problem9.h
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem9/Problem9.h
+
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Util/Util.h
+vector
+-
+bitset
+-
 
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/main.cpp
 Problem1/Problem1.h
@@ -67,6 +81,12 @@ Problem10/Problem10.h
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem10/Problem10.h
 Problem11/Problem11.h
 C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem11/Problem11.h
+Problem12/Problem12.h
+C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem12/Problem12.h
+iostream
+-
+bitset
+-
 iostream
 -
 

@@ -205,6 +205,33 @@ src\Problem11\Problem11.cpp.s:
 	$(MAKE) -f CMakeFiles\ProjectEuler.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProjectEuler.dir\src\Problem11\Problem11.cpp.s
 .PHONY : src\Problem11\Problem11.cpp.s
 
+src\Problem12\Problem12.obj: src\Problem12\Problem12.cpp.obj
+
+.PHONY : src\Problem12\Problem12.obj
+
+# target to build an object file
+src\Problem12\Problem12.cpp.obj:
+	$(MAKE) -f CMakeFiles\ProjectEuler.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProjectEuler.dir\src\Problem12\Problem12.cpp.obj
+.PHONY : src\Problem12\Problem12.cpp.obj
+
+src\Problem12\Problem12.i: src\Problem12\Problem12.cpp.i
+
+.PHONY : src\Problem12\Problem12.i
+
+# target to preprocess a source file
+src\Problem12\Problem12.cpp.i:
+	$(MAKE) -f CMakeFiles\ProjectEuler.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProjectEuler.dir\src\Problem12\Problem12.cpp.i
+.PHONY : src\Problem12\Problem12.cpp.i
+
+src\Problem12\Problem12.s: src\Problem12\Problem12.cpp.s
+
+.PHONY : src\Problem12\Problem12.s
+
+# target to generate assembly for a file
+src\Problem12\Problem12.cpp.s:
+	$(MAKE) -f CMakeFiles\ProjectEuler.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ProjectEuler.dir\src\Problem12\Problem12.cpp.s
+.PHONY : src\Problem12\Problem12.cpp.s
+
 src\Problem2\Problem2.obj: src\Problem2\Problem2.cpp.obj
 
 .PHONY : src\Problem2\Problem2.obj
@@ -493,6 +520,9 @@ help:
 	@echo ... src/Problem11/Problem11.obj
 	@echo ... src/Problem11/Problem11.i
 	@echo ... src/Problem11/Problem11.s
+	@echo ... src/Problem12/Problem12.obj
+	@echo ... src/Problem12/Problem12.i
+	@echo ... src/Problem12/Problem12.s
 	@echo ... src/Problem2/Problem2.obj
 	@echo ... src/Problem2/Problem2.i
 	@echo ... src/Problem2/Problem2.s

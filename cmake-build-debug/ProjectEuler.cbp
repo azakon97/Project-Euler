@@ -100,6 +100,12 @@
 		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem11/Problem11.h">
 			<Option target="ProjectEuler"/>
 		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem12/Problem12.cpp">
+			<Option target="ProjectEuler"/>
+		</Unit>
+		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem12/Problem12.h">
+			<Option target="ProjectEuler"/>
+		</Unit>
 		<Unit filename="C:/Users/Sergey/Desktop/Sasha/Project-Euler/src/Problem2/Problem2.cpp">
 			<Option target="ProjectEuler"/>
 		</Unit>
